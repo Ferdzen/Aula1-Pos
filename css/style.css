@@ -1,1 +1,27 @@
-/*! HTML5 Boilerplate v9.0.1 | MIT License | https://html5boilerplate.com/ */
+
+
+h1{
+  font-weight: normal;
+  margin: 1rem 0 0 1px;
+  padding: .5em 0 .5em 3px;
+  border-left: .5em solid rgb(177, 52, 52);
+  background-color: #f3e9ea;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+}
+
+p {
+  color: rgb(31, 31, 32);
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+p::first-letter {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1;
+}
