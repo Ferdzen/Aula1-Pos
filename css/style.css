@@ -35,7 +35,6 @@ p:first-of-type:first-letter {
 }
 
 .quote{
-  color: red;
   font-family: 'Times New Roman', Times, serif;
   text-align: justify;
   font-style: italic;
@@ -58,3 +57,22 @@ p:first-of-type:first-letter {
   vertical-align: text-top;
   line-height: 1.3em;
 }
+
+#titulo-principal{
+  text-transform: uppercase;
+}
+
+[id="titulo-principal"]{
+  text-shadow: .1em .1em .1em goldenrod;
+  color: #1b7878;
+}
+
+.misterio {
+  text-transform: capitalize;
+  text-shadow: .1em .1em .1em rgba(0, 0, 0, .35);
+}
+
+.misterio:hover {
+  color: red;
+}
+
