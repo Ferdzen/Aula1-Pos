@@ -8,20 +8,53 @@ h1{
   background-color: #f3e9ea;
 }
 
+section{
+  color: rgb(31, 31, 32);
+}
+
+h2{
+  margin: 2em 0 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: larger;
 }
 
 p {
-  color: rgb(31, 31, 32);
-  font-weight: bold;
-  line-height: 1.5em;
+  line-height: 1.5;
 }
 
-p::first-letter {
+p:first-of-type:first-letter {
   font-size: 4rem;
   font-weight: bold;
   font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 1;
+}
+
+.quote{
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+  font-style: italic;
+  font-size: .9em;
+  line-height: 2;
+  margin: 1em 2em 1em 4em;
+  text-transform: uppercase;
+}
+
+.quote::before{
+  content: "“";
+  font-size: 3em;
+  vertical-align: text-bottom;
+  line-height: 0.5em;
+}
+
+.quote::after{
+  content: "”";
+  font-size: 3em;
+  vertical-align: text-top;
+  line-height: 1.3em;
 }
